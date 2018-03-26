@@ -1,0 +1,10 @@
+2016-11-02 16:25:41,096 [10] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-11-02 16:28:57,972 [10] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-11-02 19:52:37,971 [9] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-11-02 20:40:51,637 [8] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-11-02 20:52:45,927 [9] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-11-02 21:00:54,663 [9] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-11-02 21:13:21,117 [9] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-11-02 21:17:29,657 [9] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-11-02 21:18:52,987 [10] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-11-02 21:47:53,883 [10] INFO  Crawler.Logger - 系统初始化Logger模块

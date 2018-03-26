@@ -1,0 +1,2 @@
+2015-11-20 19:41:55,979 [10] INFO  Crawler.Logger - 系统初始化Logger模块
+2015-11-20 20:39:41,170 [10] INFO  Crawler.Logger - 系统初始化Logger模块

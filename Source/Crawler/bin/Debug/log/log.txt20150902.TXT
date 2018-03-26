@@ -1,0 +1,4 @@
+2015-09-02 22:48:10,840 [9] INFO  Crawler.Logger - 系统初始化Logger模块
+2015-09-02 22:48:15,683 [9] WARN  Crawler.DataService.DBInit - 初始化数据库InitCategoryTable删除的时候，原表不存在
+2015-09-02 23:07:46,116 [10] INFO  Crawler.Logger - 系统初始化Logger模块
+2015-09-02 23:09:07,632 [8] INFO  Crawler.Logger - 系统初始化Logger模块

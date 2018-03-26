@@ -1,0 +1,30 @@
+2015-08-30 23:27:50,017 [15] ERROR Crawler.CommoditySearch - CrawlerMuti出现异常
+System.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束“PK_JD_Commodity_005”。不能在对象“dbo.JD_Commodity_005”中插入重复键。重复键值为 (14607)。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Crawler.DataService.SqlHelper.ExecuteNonQuery(String sql) 位置 e:\online_3\20150828第三期高级班Course19Crawler\Crawler\DataService\SqlHelper.cs:行号 26
+   在 Crawler.DataService.SqlHelper.InsertList[T](List`1 list, String tableName) 位置 e:\online_3\20150828第三期高级班Course19Crawler\Crawler\DataService\SqlHelper.cs:行号 56
+   在 Crawler.DataService.CommodityRepository.SaveList(List`1 commodityList) 位置 e:\online_3\20150828第三期高级班Course19Crawler\Crawler\DataService\CommodityRepository.cs:行号 23
+   在 Crawler.CommoditySearch.Crawler() 位置 e:\online_3\20150828第三期高级班Course19Crawler\Crawler\CommoditySearch.cs:行号 68
+ClientConnectionId:a9608492-0a53-41df-8340-4d13b7c67787
+Error Number:2627,State:1,Class:14
+2015-08-30 23:49:03,003 [15] ERROR Crawler.CommoditySearch - GetCommodityPrice出现异常
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   在 Crawler.CommoditySearch.<>c__DisplayClass5.<GetCommodityPrice>b__2(Commodity c) 位置 e:\online_3\20150828第三期高级班Course19Crawler\Crawler\CommoditySearch.cs:行号 178
+   在 System.Collections.Generic.List`1.ForEach(Action`1 action)
+   在 Crawler.CommoditySearch.GetCommodityPrice(Category category, List`1 commodityList) 位置 e:\online_3\20150828第三期高级班Course19Crawler\Crawler\CommoditySearch.cs:行号 178
+2015-08-30 23:53:09,254 [14] ERROR Crawler.CommoditySearch - GetCommodityPrice出现异常
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   在 Crawler.CommoditySearch.<>c__DisplayClass5.<GetCommodityPrice>b__2(Commodity c) 位置 e:\online_3\20150828第三期高级班Course19Crawler\Crawler\CommoditySearch.cs:行号 178
+   在 System.Collections.Generic.List`1.ForEach(Action`1 action)
+   在 Crawler.CommoditySearch.GetCommodityPrice(Category category, List`1 commodityList) 位置 e:\online_3\20150828第三期高级班Course19Crawler\Crawler\CommoditySearch.cs:行号 178

@@ -1,0 +1,48 @@
+2016-07-20 15:18:33,269 [8] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-07-20 15:31:11,219 [9] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-07-20 15:31:37,097 [9] ERROR Crawler.DataService.DBInit - 初始化数据库InitCategoryTable失败
+System.TypeInitializationException: “Crawler.DataService.SqlHelper”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Crawler.DataService.SqlHelper..cctor() 位置 e:\online6\20160720Advanced6Course13Crawler\Crawler\DataService\SqlHelper.cs:行号 16
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Crawler.DataService.SqlHelper.ExecuteNonQuery(String sql)
+   在 Crawler.DataService.DBInit.InitCategoryTable() 位置 e:\online6\20160720Advanced6Course13Crawler\Crawler\DataService\DBInit.cs:行号 84
+2016-07-20 15:32:14,346 [9] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-07-20 15:32:26,684 [9] ERROR Crawler.DataService.DBInit - 初始化数据库InitCategoryTable失败
+System.TypeInitializationException: “Crawler.DataService.SqlHelper”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Crawler.DataService.SqlHelper..cctor() 位置 e:\online6\20160720Advanced6Course13Crawler\Crawler\DataService\SqlHelper.cs:行号 16
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Crawler.DataService.SqlHelper.ExecuteNonQuery(String sql)
+   在 Crawler.DataService.DBInit.InitCategoryTable() 位置 e:\online6\20160720Advanced6Course13Crawler\Crawler\DataService\DBInit.cs:行号 84
+2016-07-20 15:33:07,377 [8] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-07-20 15:36:20,451 [7] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-07-20 15:36:29,667 [7] WARN  Crawler.DataService.DBInit - 初始化数据库InitCategoryTable删除的时候，原表不存在
+2016-07-20 15:45:11,617 [8] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-07-20 15:45:37,926 [8] WARN  Crawler.DataService.DBInit - 初始化数据库InitCommodityTable删除的时候，原表不存在
+2016-07-20 15:45:38,588 [13] ERROR Crawler.HttpHelper - DownloadHtml抓取http:http://e.jd.com/products/5272-10962.html出现异常
+System.UriFormatException: 无效的 URI: 未能分析证书颁发机构/主机。
+   在 System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   在 System.Uri..ctor(String uriString)
+   在 System.Net.WebRequest.Create(String requestUriString)
+   在 Crawler.HttpHelper.DownloadHtml(String url, Encoding encode) 位置 e:\online6\20160720Advanced6Course13Crawler\Crawler\Utility\HttpHelper.cs:行号 49
+2016-07-20 15:45:38,588 [14] ERROR Crawler.HttpHelper - DownloadHtml抓取http:http://e.jd.com/products/5272-10953.html出现异常
+System.UriFormatException: 无效的 URI: 未能分析证书颁发机构/主机。
+   在 System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   在 System.Uri..ctor(String uriString)
+   在 System.Net.WebRequest.Create(String requestUriString)
+   在 Crawler.HttpHelper.DownloadHtml(String url, Encoding encode) 位置 e:\online6\20160720Advanced6Course13Crawler\Crawler\Utility\HttpHelper.cs:行号 49
+2016-07-20 15:45:38,589 [11] ERROR Crawler.HttpHelper - DownloadHtml抓取http:http://e.jd.com/ebook.html出现异常
+System.UriFormatException: 无效的 URI: 未能分析证书颁发机构/主机。
+   在 System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   在 System.Uri..ctor(String uriString)
+   在 System.Net.WebRequest.Create(String requestUriString)
+   在 Crawler.HttpHelper.DownloadHtml(String url, Encoding encode) 位置 e:\online6\20160720Advanced6Course13Crawler\Crawler\Utility\HttpHelper.cs:行号 49
+2016-07-20 15:45:38,588 [12] ERROR Crawler.HttpHelper - DownloadHtml抓取http:http://e.jd.com/products/5272-10941.html出现异常
+System.UriFormatException: 无效的 URI: 未能分析证书颁发机构/主机。
+   在 System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   在 System.Uri..ctor(String uriString)
+   在 System.Net.WebRequest.Create(String requestUriString)
+   在 Crawler.HttpHelper.DownloadHtml(String url, Encoding encode) 位置 e:\online6\20160720Advanced6Course13Crawler\Crawler\Utility\HttpHelper.cs:行号 49
+2016-07-20 15:47:42,100 [9] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-07-20 20:45:07,157 [10] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-07-20 21:18:05,883 [10] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-07-20 22:05:01,776 [8] INFO  Crawler.Logger - 系统初始化Logger模块

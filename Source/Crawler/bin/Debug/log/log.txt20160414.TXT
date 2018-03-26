@@ -1,0 +1,4 @@
+2016-04-14 20:51:01,336 [10] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-04-14 20:59:28,824 [8] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-04-14 21:02:29,230 [9] INFO  Crawler.Logger - 系统初始化Logger模块
+2016-04-14 21:12:38,102 [9] INFO  Crawler.Logger - 系统初始化Logger模块
