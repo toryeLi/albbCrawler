@@ -64,7 +64,8 @@ namespace Crawler
             if (input.Equals("Y", StringComparison.OrdinalIgnoreCase))
             {
                 dbInit.InitCategoryTable();
-                List<Category> categoryList = CategorySearch.Crawler("http://www.jd.com/allSort.aspx");
+                //  List<Category> categoryList = CategorySearch.Crawler("http://www.jd.com/allSort.aspx");
+                List<Category> categoryList = CategorySearch.Crawler("https://www.alibaba.com/?spm=a2700.icbuShop.scGlobalHeaderSmall.1.684142aeD461tx");
 
                 categoryRepository.Save(categoryList);
                 Console.WriteLine("类型数据初始化完成，共抓取类别{0}个", categoryList.Count);

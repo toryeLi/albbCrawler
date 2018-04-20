@@ -1,5 +1,16 @@
-2017-03-23 18:28:14,850 [10] INFO  Crawler.Logger - 系统初始化Logger模块
-2017-03-23 18:29:33,629 [10] WARN  Crawler.DataService.DBInit - 初始化数据库InitCategoryTable删除的时候，原表不存在
-2017-03-23 18:48:33,824 [9] INFO  Crawler.Logger - 系统初始化Logger模块
-2017-03-23 19:22:30,775 [9] INFO  Crawler.Logger - 系统初始化Logger模块
-2017-03-23 19:29:58,524 [9] WARN  Crawler.DataService.DBInit - 初始化数据库InitCommodityTable删除的时候，原表不存在
+2018-03-26 21:41:18,006 [1] INFO  Crawler.Logger - 系统初始化Logger模块
+2018-03-26 21:42:05,480 [1] WARN  Crawler.DataService.DBInit - 初始化数据库InitCategoryTable删除的时候，原表不存在
+2018-03-26 21:52:32,496 [1] INFO  Crawler.Logger - 系统初始化Logger模块
+2018-03-26 21:54:20,836 [1] ERROR Crawler.CategorySearch - CrawlerMuti出现异常
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Crawler.CategorySearch.Crawler(String url) 位置 E:\Torey\GitHupProper\CSharp\Crawler\albbCrawler\Source\Crawler\CategorySearch.cs:行号 33
+2018-03-26 21:54:42,928 [1] ERROR Crawler.Program - 异常啦，
+System.InvalidOperationException: ExecuteNonQuery: CommandText 属性尚未初始化
+   在 System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Crawler.DataService.SqlHelper.ExecuteNonQuery(String sql) 位置 E:\Torey\GitHupProper\CSharp\Crawler\albbCrawler\Source\Crawler\DataService\SqlHelper.cs:行号 28
+   在 Crawler.DataService.SqlHelper.InsertList[T](List`1 list, String tableName) 位置 E:\Torey\GitHupProper\CSharp\Crawler\albbCrawler\Source\Crawler\DataService\SqlHelper.cs:行号 77
+   在 Crawler.DataService.CategoryRepository.Save(List`1 categoryList) 位置 E:\Torey\GitHupProper\CSharp\Crawler\albbCrawler\Source\Crawler\DataService\CategoryRepository.cs:行号 18
+   在 Crawler.Program.Crawl() 位置 E:\Torey\GitHupProper\CSharp\Crawler\albbCrawler\Source\Crawler\Program.cs:行号 70
+   在 Crawler.Program.Main(String[] args) 位置 E:\Torey\GitHupProper\CSharp\Crawler\albbCrawler\Source\Crawler\Program.cs:行号 44

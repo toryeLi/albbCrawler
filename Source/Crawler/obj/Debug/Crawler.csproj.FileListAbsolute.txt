@@ -130,3 +130,12 @@ F:\技术文档\C#\软谋教育Elevn老师课程\20170307Advanced8Course17Crawle
 F:\技术文档\C#\软谋教育Elevn老师课程\20170307Advanced8Course17Crawler\Crawler\bin\Debug\Crawler.exe
 F:\技术文档\C#\软谋教育Elevn老师课程\20170307Advanced8Course17Crawler\Crawler\bin\Debug\Crawler.pdb
 F:\技术文档\C#\软谋教育Elevn老师课程\20170307Advanced8Course17Crawler\Crawler\obj\Debug\Crawler.csprojResolveAssemblyReference.cache
+E:\Torey\GitHupProper\CSharp\Crawler\albbCrawler\Source\Crawler\bin\Debug\CfgFiles\log4net.cfg.xml
+E:\Torey\GitHupProper\CSharp\Crawler\albbCrawler\Source\Crawler\bin\Debug\Crawler.exe.config
+E:\Torey\GitHupProper\CSharp\Crawler\albbCrawler\Source\Crawler\bin\Debug\Crawler.exe
+E:\Torey\GitHupProper\CSharp\Crawler\albbCrawler\Source\Crawler\bin\Debug\Crawler.pdb
+E:\Torey\GitHupProper\CSharp\Crawler\albbCrawler\Source\Crawler\bin\Debug\Newtonsoft.Json.dll
+E:\Torey\GitHupProper\CSharp\Crawler\albbCrawler\Source\Crawler\obj\Debug\Crawler.csprojResolveAssemblyReference.cache
+E:\Torey\GitHupProper\CSharp\Crawler\albbCrawler\Source\Crawler\obj\Debug\Crawler.csproj.CoreCompileInputs.cache
+E:\Torey\GitHupProper\CSharp\Crawler\albbCrawler\Source\Crawler\obj\Debug\Crawler.exe
+E:\Torey\GitHupProper\CSharp\Crawler\albbCrawler\Source\Crawler\obj\Debug\Crawler.pdb
